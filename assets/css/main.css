@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+#contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.icono {
+    color: orange;
+    --fa-animation-duration: 1s;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.btn-send {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 15px;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
